@@ -1,0 +1,54 @@
+{
+   "resource_pack_name" : "skyblock",
+   "texture_name" : "atlas.items",
+   "texture_data" : {      
+    "skyblock_menu" : {
+         "textures" : "textures/items/skyblock_menu"
+      },
+    "close" : {
+         "textures" : "textures/items/close"
+      },
+    "close2" : {
+         "textures" : "textures/items/close2"
+      },
+    "glass2" : {
+         "textures" : "textures/items/glass2"
+      },
+    "glass" : {
+         "textures" : "textures/items/glass"
+      },
+    "locked" : {
+         "textures" : "textures/items/locked"
+      },
+    "collect_all" : {
+         "textures" : "textures/items/collect_all"
+      },
+    "upgrade_slot" : {
+         "textures" : "textures/items/upgrade_slot"
+      },
+    "coal_minion" : {
+         "textures" : "textures/items/minion/coal_minion"
+      },
+    "cobblestone_minion" : {
+         "textures" : "textures/items/minion/cobblestone_minion"
+      },
+    "diamond_minion" : {
+         "textures" : "textures/items/minion/diamond_minion"
+      },
+    "emerald_minion" : {
+         "textures" : "textures/items/minion/emerald_minion"
+      },
+    "gold_minion" : {
+         "textures" : "textures/items/minion/gold_minion"
+      },
+    "iron_minion" : {
+         "textures" : "textures/items/minion/iron_minion"
+      },
+    "lapis_minion" : {
+         "textures" : "textures/items/minion/lapis_minion"
+      },
+    "redstone_minion" : {
+         "textures" : "textures/items/minion/redstone_minion"
+      }
+    }
+}

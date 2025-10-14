@@ -1,0 +1,144 @@
+{
+  "namespace": "progress",
+  "world_modal_progress_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "controls": [
+      {
+        "popup_dialog_factory@popup_dialog_factory": {}
+      },
+      {
+        "point-anime@progress.point-anime": {}
+      },
+      {
+        "background": {
+          "type": "image",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "texture": "textures/ui/UI/Progress UI/play"
+        }
+      },
+      {
+        "label-chargement@progress.label-chargement": {}
+      },
+      {
+        "label-text@progress.label-text": {
+          "text": "Skyblock 2025 - 2027"
+        }
+      }
+    ]
+  }, 
+  "world_modal_progress_panel_logout": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "controls": [
+      {
+        "background": {
+          "type": "image",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "texture": "textures/ui/Black"
+        }
+      },
+      {
+        "label-text@progress.label-text": {
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "font_scale_factor": 2,
+          "text": "Disconnect..."
+        }
+      },
+      {
+        "label-text@progress.label-text": {
+          "text": "Skyblock 2025 - 2027"
+        }
+      }
+    ]
+  },
+
+  "label-chargement": {
+    "type": "label",
+    "layer": 1000,
+    "offset": [
+      10,
+      -5
+    ],
+    "shadow": true,
+    "text": "chargement",
+    "font_scale_factor": 2,
+    "font_type": "MinecraftTen",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left"
+  },
+  "label-text": {
+    "type": "label",
+    "layer": 1000,
+    "offset": [
+      -10,
+      -5
+    ],
+    "shadow": true,
+    "font_scale_factor": 0.8,
+    "font_type": "MinecraftTen",
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right"
+  },
+  "image_uv_animation": {
+    "anim_type": "aseprite_flip_book",
+    "initial_uv": [
+      0,
+      0
+    ]
+  },
+  "point-anime": {
+    "type": "image",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "texture": "textures/ui/UI/Progress UI/point",
+    "size": [
+      24.2,
+      10
+    ],
+    "offset": [
+      135,
+      -6
+    ],
+    "layer": 1000,
+    "uv_size": [
+      24.2,
+      10
+    ],
+    "uv": "@progress.image_uv_animation",
+    "disable_anim_fast_forward": true
+  },
+  "world_convert_modal_progress_screen_content": {
+    "type": "panel",
+    "controls": [
+      {
+        "world_modal_progress_panel@progress.world_modal_progress_panel": {
+          "$modal_button_panel_type": "progress.modal_button_panel"
+        }
+      }
+    ]
+  },
+  "world_save_modal_progress_screen_content": {
+    "type": "panel",
+    "controls": [
+      {
+        "world_modal_progress_panel_logout@progress.world_modal_progress_panel_logout": {
+          "$modal_button_panel_type": "progress.modal_button_panel_with_retry"
+        }
+      }
+    ]
+  }
+}

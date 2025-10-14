@@ -1,0 +1,7 @@
+{
+    "ui_defs": [
+        "ui/scoreboards.json",
+        "ui/pause_screen.json",
+        "ui/progress_screen.json"
+    ]
+}
