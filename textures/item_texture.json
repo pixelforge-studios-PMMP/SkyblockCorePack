@@ -49,6 +49,21 @@
       },
     "redstone_minion" : {
          "textures" : "textures/items/minion/redstone_minion"
-      }
+      },
+    "carrot_minion" : {
+         "textures" : "textures/items/minion/carrot_minion"
+      },
+    "potato_minion" : {
+         "textures" : "textures/items/minion/potato_minion"
+      },
+    "wheat_minion" : {
+         "textures" : "textures/items/minion/wheat_minion"
+         },
+    "melon_minion" : {
+         "textures" : "textures/items/minion/melon_minion"
+      },
+    "pumpkin_minion" : {
+         "textures" : "textures/items/minion/pumpkin_minion"
+       }
     }
 }
