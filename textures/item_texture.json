@@ -64,6 +64,24 @@
       },
     "pumpkin_minion" : {
          "textures" : "textures/items/minion/pumpkin_minion"
+       },
+     "acacia_minion" : {
+         "textures" : "textures/items/minion/acacia_minion"
+       },
+     "birch_minion" : {
+         "textures" : "textures/items/minion/birch_minion"
+       },
+     "dark_oak_minion" : {
+         "textures" : "textures/items/minion/dark_oak_minion"
+       },
+     "jungle_minion" : {
+         "textures" : "textures/items/minion/jungle_minion"
+       },
+     "oak_minion" : {
+         "textures" : "textures/items/minion/oak_minion"
+       },
+     "spruce_minion" : {
+         "textures" : "textures/items/minion/spruce_minion"
        }
     }
 }
