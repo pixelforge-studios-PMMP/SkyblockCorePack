@@ -82,6 +82,30 @@
        },
      "spruce_minion" : {
          "textures" : "textures/items/minion/spruce_minion"
-       }
+       },
+     "cow_minion" : {
+         "textures" : "textures/items/minion/cow_minion"
+       },
+     "pig_minion" : {
+          "textures" : "textures/items/minion/pig_minion"
+        },
+     "sheep_minion" : {
+          "textures" : "textures/items/minion/sheep_minion"
+        },
+     "chicken_minion" : {
+          "textures" : "textures/items/minion/chicken_minion"
+        },
+     "zombie_minion" : {
+          "textures" : "textures/items/minion/zombie_minion"
+        },
+     "skeleton_minion" : {
+          "textures" : "textures/items/minion/skeleton_minion"
+        },
+     "spider_minion" : {
+          "textures" : "textures/items/minion/spider_minion"
+          },
+     "creeper_minion" : {
+          "textures" : "textures/items/minion/creeper_minion"
+         }
     }
 }
