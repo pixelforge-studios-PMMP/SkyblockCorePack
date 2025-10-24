@@ -3,7 +3,7 @@
     "header": {
         "name": "Skyblock v0.3",
         "description": "SkyblockPack By Biswajit.",
-        "uuid": "49a85f3c-f4b2-4c3e-83d7-4cf51f62fec4",
+        "uuid": "49a85f3c-f4b2-4c3e-83d7-4cf51f62fec3",
         "version": [ 1, 1, 32 ],
         "min_engine_version": [ 1, 18, 2 ],
         "platform_locked" : false
@@ -12,7 +12,7 @@
         {
             "description": "",
             "type": "resources",
-            "uuid": "5b2ea3b4-8f5f-45cf-b0c5-0e01f65385c8",
+            "uuid": "5b2ea3b4-8f5f-45cf-b0c5-0e01f65385c0",
             "version": [ 1, 1, 32 ]
         }
     ]
